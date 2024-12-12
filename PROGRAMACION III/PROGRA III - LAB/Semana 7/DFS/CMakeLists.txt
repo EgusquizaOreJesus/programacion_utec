@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.23)
+project(DFS)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(DFS main.cpp)
+add_executable(ejercicio1 ALGORITMOS/exercise1.cpp)
+add_executable(maze ALGORITMOS/maze_generator.cpp)
+add_executable(BFS_ ALGORITMOS/BFS.cpp)
+add_executable(KRUSKAL ALGORITMOS/kruskal.cpp)
+add_executable(BST_ ALGORITMOS/BST.cpp)
+add_executable(DFS_ ALGORITMOS/DFS.cpp)
+add_executable(BFS_sr ALGORITMOS/BFS_sortest_path.cpp)
+add_executable(Dij ALGORITMOS/Dijkstra.cpp)
+add_executable(DIJ1 ALGORITMOS/Dijkstra_exercise1.cpp)
+add_executable(DIJ2 ALGORITMOS/Dijkstra_exercise2.cpp)
+add_executable(DIJ3 ALGORITMOS/Dijkstra_exercise3.cpp)

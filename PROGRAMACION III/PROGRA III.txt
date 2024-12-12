@@ -1,0 +1,13 @@
+CUAL ES LA DIFERENCIA DE UN CONSTRUCTOR COPY Y UN CONSTRUCTOR MOVE??
+EN EL COPY: tengo que copiar el contenido de otro(other) en el actual (this)
+1° Copio cada atributo 
+OBS: no es correcto copiar una memoria dinamica, primero reservas memoria 
+data_ = new int[] tipo asi
+y luego con la funcion copy lo copias de esta manera.
+copy(other.data_,other.data_ + sz_, data_)
+
+EN EN MOVE: 
+cuando veas doble ampersan && siempre se utiliza en el constructor move
+
+OBS: cuando utilizas el "swap" o el "move", el programa va utilizar la sobrecarga del move
+del constructor move,

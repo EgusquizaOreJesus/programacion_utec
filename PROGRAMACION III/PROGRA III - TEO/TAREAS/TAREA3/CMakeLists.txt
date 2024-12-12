@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.23)
+project(TAREA3)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(TAREA3 main.cpp)
+add_executable(exercise2 ejercicio2.cpp Borrador2.cpp)
+add_executable(exercise3 ejercicio3.cpp)
+add_executable(exercise4 ejercicio4.cpp)
+add_executable(exercise5 ejercicio5.cpp)
+add_executable(exercise6 ejercicio6.cpp)
+add_executable(exercise7 ejercicio7.cpp)
+add_executable(exercise8 ejercicio8.cpp)
+add_executable(exercise9 ejercicio9.cpp)
+add_executable(papel borrador.cpp)
+add_executable(papel2 Borrador2.cpp)

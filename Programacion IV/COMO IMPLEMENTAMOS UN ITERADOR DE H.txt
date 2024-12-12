@@ -1,0 +1,25 @@
+COMO IMPLEMENTAMOS UN ITERADOR DE HASH TABLE:
+
+
+RETORNAME TODO LOS ELEMENTOS DEL HASH TABLE ORDENADO --> complejidad: O(N*log(N))
+No puedes ordenar el hash table porque pierdes los index de cada elemento
+Tendrias que copiarlo en un array y luego ese array ordenarlo
+
+
+Implementacion de un set
+template<typename T>
+class Set{
+private:
+// TODO: atrivutos
+public:
+	Set():
+	void Insert(T data);
+	bool Remove(T data);
+	bool Contains(T data);			// verifica si esta el numero
+	Set Union(const Set & other);		// unir dos set y retorne dicha union
+	Set Intersect(const Set & other);	// intersectar dos set y retorna la interseccion
+	Set Difference(const Set & other);	// diferentes numeros del set y retorna la diferencia
+	~Set(); 
+}
+
+//

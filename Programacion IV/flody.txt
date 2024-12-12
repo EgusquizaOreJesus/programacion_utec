@@ -1,0 +1,18 @@
+Floyd Warshall:
+Soporta pesos negativos, más no ciclos negativos
+Que es un ciclo negativo?
+Es un circulo en el cual la suma de sus aristas es un valor negativo
+
+- No recibe ni el inicio ni el final
+
+complejidad:
+temporal O(V^3)
+espacial O(V^2)
+
+Implementacion
+1° Inicializamos la matriz de distancias minimas con valor INFINITO
+Y MAPEAMOS SUS VALORES
+
+Matriz de Recorridos:
+Inicializo con el valor de las columnas para cada columna
+

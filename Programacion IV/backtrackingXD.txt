@@ -1,0 +1,27 @@
+BACKTRACKING METODO GENERAL
+Esquema general:
+Solucion cuando el nivel == n y tact == P
+siendo n la cantidad de elementos del conjunto
+
+
+Se tiene el conjutno {2,1,4,3} se busca el subconjunto que sume 5
+1paso
+
+QUE PASA SI EL BACKTRACKING NO HAY SOLUCION?
+- poner en el repetir hasta fin or (nivel == 0)
+
+
+Si el problema es de optimizacion (maximizar o minimizar)?
+- Ejm: Dado el conjutno de elementos de tamaño n, dame el subconjutno de 2 elementos que maximice la suma
+SI O SI NECESITAS UN VALOR NUMERICO PARA PODER COMPARAR
+
+RAMIFICACION Y PODA:
+Hay 2 tipos de poda:
+- Poda CI: cota inferior -> suma actual 
+- Poda CS: cota superior -> suma total posible
+P : SUMA DESEADA
+CI se inicializa con cero ya que no sumas nada
+CS: se inicializa con la sumta total de los elementos
+Condicion para ya no podar es: CI > P or CS < P
+ESTA CONDICION ME VA AYUDAR A YA NO BAJAR A OTRO NIVEL, PORQUE NO ENCONTRARA LA SOLUCION, ASI QUE SI CUMPLE LA PODA PASA AL HERMANO O AL PADRE PORQUE NO ENCONTRARAS SOLUCION POR DEBAJO DE ESE NODO
+

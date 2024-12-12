@@ -1,0 +1,16 @@
+VENTAJAS DE UN ARRAY
+El acceso directo a un elemento
+Desventaja:
+Redimensionar es costoso
+
+
+Lista Enlazada:
+Enlaza elementos en la memoria, para enlazar elementos en la memoria.
+Usas celdas contiguas o usas nodos
+
+Forward List ()
+
+delete head solamente libera, pero sigue sus recuerdos
+y para que este vacio necesito head = NULL;
+la ventaja del forward list, NO HAY QUE REDIMENSIONAR
+reverse():

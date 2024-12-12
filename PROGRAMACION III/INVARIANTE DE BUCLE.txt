@@ -1,0 +1,7 @@
+como convertir una funcion compleja en algo mas sencillo
+invariante de bucle --> es una condicion que se va cumplir para cada iteracion
+
+for (i=0, i<2, i++)
+i<2 --> esta es la invariante de bucle 
+
+

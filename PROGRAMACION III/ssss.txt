@@ -1,0 +1,5 @@
+una funcion que retorna un puntero--> double* f1()
+la tarea es que ese puntero que me retorna esa funcion la retorne en variable puntero
+
+
+cualquier array que pases a una funcion, el sizeof siempre lo va interpretar como 8 porque solo esta agarrandome una direccion y NO EL TAMAÑO de los vectores.

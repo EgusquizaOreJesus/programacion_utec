@@ -1,0 +1,4 @@
+DE: sqrt((x1-x2)^2 + (y1-y2)^2)
+DM: |x1-x2| + |y1-y2|
+
+Se diferencia en que la distancia euclidiana es una distancia en linea recta, en cambio, la distancia Manhattan sigue una ruta hacia el objetivo distnacia taxi
